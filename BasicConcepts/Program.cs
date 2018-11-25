@@ -1,4 +1,5 @@
-﻿using BasicConcepts.Objects;
+﻿using BasicConcepts.Classes;
+using BasicConcepts.Objects;
 using System;
 
 namespace BasicConcepts
@@ -16,7 +17,9 @@ namespace BasicConcepts
             Console.WriteLine("FirstName is :" + customer.firstName);
             Console.WriteLine("LastName is :" + customer.LastName);
             Console.WriteLine("Location is :" + customer.Location);
-            Console.WriteLine("Customer id  is :" + customer.CustomerId);
+            Console.WriteLine("Customer id  is :" + customer.CustomerId);          
+            DerivedClass derivedClass = new DerivedClass();
+            derivedClass.BaseMethod();
             Console.ReadLine();
 
         }

@@ -6,27 +6,27 @@ namespace BasicConcepts.Objects
 {
     class Customer
     {
-        private int customerId;
+        private int _customerId;
         public string firstName; //public varibale can be accessed without get set
-        private string lastName;
-        private string location;
+        private string _lastName;
+        private string _location;
         
 
         public int CustomerId
         {
-            get { return customerId; }
-            set { customerId = value; }
+            get { return _customerId; }
+            set { _customerId = value; }
         }
 
         public string LastName
         {
-            get { return lastName; }
-            set { lastName = value; }
+            get { return _lastName; }
+            set { _lastName = value; }
         }
         public string Location
         {
-            get { return location; }
-            set { location = value; }
+            get { return _location; }
+            set { _location = value; }
         }
 
 

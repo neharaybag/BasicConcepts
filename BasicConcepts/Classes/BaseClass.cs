@@ -4,8 +4,15 @@ using System.Text;
 
 namespace BasicConcepts.Classes
 {
-    class BaseClass
+    public class BaseClass
     {
+        private int value = 20;
+
+        public void BaseMethod()
+        {
+            Console.WriteLine("Hello from base class");
+            Console.WriteLine("Value" + value);
+        }
         
     }
 }
